@@ -1,5 +1,7 @@
 'use strict';
 
+var window = require('global/window')
+
 var requestAnimFrame = (function() {
   return window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
